@@ -9,7 +9,7 @@ nav input[type=text]
 }
 body
 {
-    background-image: url("/home/cgi/Downloads/html-demo/img/CGI.jpg");
+    background-image: url("img/CGI.jpg");
 }
 nav li
 {
