@@ -1,0 +1,86 @@
+nav input[type=text] 
+{
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+body
+{
+    background-image: url("/home/cgi/Desktop/img/CGI.jpg");
+}
+nav li
+{
+  display: inline;margin-left:0px;margin-right:30px;
+}
+aside
+{
+  background:#f1f1f1;
+}
+.primary
+{
+  background:#e3e3e3;
+}
+header
+{
+  background:red;
+}
+.main
+{
+  margin: 30px 0;
+}
+.style li
+{
+  font-size:100%;
+  font-weight: Bold;
+  text-decoration:none;
+}
+.container_12
+{
+  display:grid;
+}
+.hero-text 
+{
+  text-align: center;  
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.hero-image
+{
+  background-color:red;
+  background-size:cover;
+  background-position:center;
+}
+.fa
+ {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+.fa-facebook
+{
+    background:red;
+  color: white;
+  font-size:50px;
+  margin-bottom: 5px;
+}
+.fa-twitter
+{
+  background:red;
+  color: white;
+}
+.fa-linkedin
+{
+  background: red;
+  color: white;
+}
+.fa-youtube
+{
+  background: red;
+  color: white;
+}
