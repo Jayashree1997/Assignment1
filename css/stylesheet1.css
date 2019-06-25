@@ -27,6 +27,7 @@ header
 }
 .main
 {
+	width: 100%;
   margin: 30px 0;
 
 }
@@ -38,7 +39,8 @@ header
 }
 .container_12
 {
-  display:grid;
+  display:block;
+  
 }
 .hero-text 
 {
@@ -49,7 +51,7 @@ header
 }
 .hero-image
 {
-  background-color:red;
+  background-color:#c03;
   background-size:cover;
   background-position:center;
 }
@@ -63,25 +65,25 @@ header
   }
 .fa-facebook
 {
-    background:red;
-  color: white;
+
+  color: black;
   font-size:50px;
   margin-bottom: 5px;
 }
 .fa-twitter
 {
-  background:red;
-  color: white;
+
+  color:black;
 }
 .fa-linkedin
 {
-  background: red;
-  color: white;
+  
+  color:black;
 }
 .fa-youtube
 {
-  background: red;
-  color: white;
+  
+  color: black;
 }
 /* apply margin and padding to whole body*/
 *{
@@ -270,11 +272,13 @@ margin:0px;
 padding:0px;
 text-align:center;
 }
-.footer-menu2 ul li{
+.footer-menu2 ul li
+{
 	display:inline-block;
 	margin: 0px 20px;
 }
-.footer-menu2 ul li a{
+.footer-menu2 ul li a
+{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
@@ -282,82 +286,64 @@ text-align:center;
 	text-transform: uppercase;
 	text-decoration: none;
 }
-.footer-menu2 ul li a:hover{
+.footer-menu2 ul li a:hover
+{
 color:#5ed3d3;
 }
-.footer-bottom{
+.footer-bottom
+{
 	width:100%;
 	height:auto;
 	margin:auto;
-	background: #dd1616;
+	background: #c03;
 	padding:0px;
 }
 .header{
 	position:fixed;
 }
-.footer-bottom p{
+.footer-bottom p
+{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 20px;
 	text-align: center;
 	font-weight: 600;
 	letter-spacing: 1px;
 }
-.footer-bottom p a{
+.footer-bottom p a
+{
 	text-decoration-color: beige;
 	text-decoration: none;
 	color: beige;
 	padding-left:20px;
 }
-.footer-bottom p a:hover{
+.footer-bottom p a:hover
+{
 	color: aqua;
 }
 /*using it to use data as flex row*/
-.wrapper{
+.wrapper
+{
 	display:flex;
 	flex-direction: column;
 }
- .box1{
+ .box1
+{
 	margin-top: 5px;
 }
-.box2{
+.box2
+{
 	margin-top: 5px;
 }
-.box3{
+.box3
+{
 	margin-top: 5px;
 }
-body {
-	margin: 0;
-	padding: 0;
- }
- .hero {
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
- }
- .hero-content {
-	position: relative;
-	font-family: "Monserrat", sans-serif;
+
+.hero-button
+{
+	background-color: #c03;
 	color: white;
-	text-align: center;
-	margin: 0.625rem;
- }
- .hero-title {
-	font-size: 3rem;
-	font-weight: 600;
-	margin-bottom: 0;
- }
- .hero-subtitle {
-	font-size: 2rem;
-	font-weight: 200;
-	margin-top: 1rem;
- }
- .hero-button {
-	background-color: #ae2d59;
-	color: white;
-	border: 1px solid #cb376a;
+	border: 1px solid #c03;
 	margin-top: 5rem;
 	padding: 0.9375rem1.875rem;
 	font-family: "Monserrat", sans-serif;
@@ -365,15 +351,18 @@ body {
 	font-weight: 200;
 	cursor: pointer;
  }
- .hero-button:hover {
+.hero-button:hover 
+{
 	background-color: #cb376a;
 	border: 1px solid #db7598;
- }
- body {
+}
+body 
+{
 	margin: 0;
 	padding: 0;
  }
- .hero {
+ .hero
+{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -381,54 +370,8 @@ body {
 	justify-content: center;
 	align-items: center;
  }
- .hero::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url("img/cgiservices.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	filter: brightness(60%);
- }
- .hero-content {
-	position: relative;
-	font-family: "Monserrat", sans-serif;
-	color:red;
-	text-align: center;
-	margin: 0.625rem;
- }
- .hero-title {
-	font-size: 3rem;
-	font-weight: 600;
-	margin-bottom: 0;
-	color:red;
- }
- .hero-subtitle {
-	font-size: 2rem;
-	font-weight: 200;
-	margin-top: 1rem;
-	color:red;
-
- }
- 
-
- body {
-	margin: 0;
-	padding: 0;
- }
- .hero {
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
- }
- .hero::before {
+ .hero::before 
+ {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -441,48 +384,35 @@ body {
 	background-position: center center;
 	filter: brightness(60%);
  }
- .hero-content {
+ .hero-content 
+ {
 	position: relative;
 	font-family: "Monserrat", sans-serif;
-	color: white;
+	color: #c03;
 	text-align: center;
 	margin: 0.625rem;
  }
- .hero-title {
+.hero-title 
+{
 	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 0;
  }
- .hero-subtitle {
+.hero-subtitle 
+{
 	font-size: 2rem;
 	font-weight: 200;
 	margin-top: 1rem;
  }
- .container {
+.container
+ {
 	position: relative;
-  }
-  
-  
-  img { 
-	width: 100%;
+ }
+.img
+{ 
+	width: 30%%;
 	height: auto;
 	padding-right:70px;
-	
-  }
-  .parallax { 
-	/* The image used */
-	background-image: url("../img/cgiservices.jpg");
+}
   
-	/* Set a specific height */
-	height: 500px; 
   
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-  }
-  article{
-	  display:block;
-	  margin-top=100%;
-  }
