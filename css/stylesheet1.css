@@ -90,7 +90,7 @@ header
 }
 /*adding a background image with given size specification*/
 .bgimage{
-	background-image: url("img/cgimain.jpg");
+	background-image: url("../img/cgimain.jpg");
 	background-size: 100% 100%;
 	width: 100%;
 	height: 100vh;
